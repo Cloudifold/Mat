@@ -1,0 +1,132 @@
+.
+├── app
+│   ├── Main.hs
+│   └── MatrixAlgo
+│       ├── BasicOperation.hs
+│       ├── EchelonForm
+│       │   ├── OverField.hs
+│       │   └── OverPIR.hs
+│       ├── HermiteForm.hs
+│       └── SmithNormalForm.hs
+├── dist-newstyle
+│   ├── build
+│   │   └── x86_64-linux
+│   │       ├── ghc-8.10.7
+│   │       │   └── EatCat-0.1.0.0
+│   │       │       └── x
+│   │       │           └── EatCat
+│   │       │               ├── build
+│   │       │               │   └── EatCat
+│   │       │               │       ├── autogen
+│   │       │               │       │   ├── cabal_macros.h
+│   │       │               │       │   └── Paths_EatCat.hs
+│   │       │               │       ├── EatCat
+│   │       │               │       └── EatCat-tmp
+│   │       │               │           ├── ChainComplex.hi
+│   │       │               │           ├── ChainComplex.o
+│   │       │               │           ├── Main.hi
+│   │       │               │           ├── Main.o
+│   │       │               │           ├── MatrixAlgo
+│   │       │               │           │   ├── BasicOperation.hi
+│   │       │               │           │   ├── BasicOperation.o
+│   │       │               │           │   ├── EchelonForm
+│   │       │               │           │   │   ├── OverField.hi
+│   │       │               │           │   │   ├── OverField.o
+│   │       │               │           │   │   ├── OverPIR.hi
+│   │       │               │           │   │   └── OverPIR.o
+│   │       │               │           │   ├── EchelonForm.hi
+│   │       │               │           │   ├── EchelonForm.o
+│   │       │               │           │   ├── HermiteForm.hi
+│   │       │               │           │   ├── HermiteForm.o
+│   │       │               │           │   ├── SmithNormalForm.hi
+│   │       │               │           │   └── SmithNormalForm.o
+│   │       │               │           ├── SSet
+│   │       │               │           │   ├── StandardNSimplex.hi
+│   │       │               │           │   └── StandardNSimplex.o
+│   │       │               │           ├── SSet.hi
+│   │       │               │           ├── SSet.o
+│   │       │               │           ├── ZModule.hi
+│   │       │               │           └── ZModule.o
+│   │       │               ├── cache
+│   │       │               │   ├── build
+│   │       │               │   ├── config
+│   │       │               │   └── registration
+│   │       │               ├── package.conf.inplace
+│   │       │               │   ├── package.cache
+│   │       │               │   └── package.cache.lock
+│   │       │               └── setup-config
+│   │       └── ghc-9.2.8
+│   │           ├── EatCat-0.1.0.0
+│   │           │   └── x
+│   │           │       └── EatCat
+│   │           │           ├── build
+│   │           │           │   └── EatCat
+│   │           │           │       ├── autogen
+│   │           │           │       │   ├── cabal_macros.h
+│   │           │           │       │   └── Paths_EatCat.hs
+│   │           │           │       └── EatCat-tmp
+│   │           │           │           ├── MatrixAlgo
+│   │           │           │           │   └── EchelonForm
+│   │           │           │           └── SSet
+│   │           │           ├── cache
+│   │           │           │   └── config
+│   │           │           ├── package.conf.inplace
+│   │           │           │   ├── package.cache
+│   │           │           │   └── package.cache.lock
+│   │           │           └── setup-config
+│   │           └── Mat-0.1.0.0
+│   │               └── x
+│   │                   └── EatCat
+│   │                       ├── build
+│   │                       │   └── EatCat
+│   │                       │       ├── autogen
+│   │                       │       │   ├── cabal_macros.h
+│   │                       │       │   └── Paths_Mat.hs
+│   │                       │       ├── EatCat
+│   │                       │       └── EatCat-tmp
+│   │                       │           ├── Main.hi
+│   │                       │           ├── Main.o
+│   │                       │           └── MatrixAlgo
+│   │                       │               ├── BasicOperation.hi
+│   │                       │               ├── BasicOperation.o
+│   │                       │               ├── EchelonForm
+│   │                       │               │   ├── OverField.hi
+│   │                       │               │   ├── OverField.o
+│   │                       │               │   ├── OverPIR.hi
+│   │                       │               │   └── OverPIR.o
+│   │                       │               ├── HermiteForm.hi
+│   │                       │               ├── HermiteForm.o
+│   │                       │               ├── SmithNormalForm.hi
+│   │                       │               └── SmithNormalForm.o
+│   │                       ├── cache
+│   │                       │   ├── build
+│   │                       │   ├── config
+│   │                       │   └── registration
+│   │                       ├── package.conf.inplace
+│   │                       │   ├── package.cache
+│   │                       │   └── package.cache.lock
+│   │                       └── setup-config
+│   ├── cache
+│   │   ├── compiler
+│   │   ├── config
+│   │   ├── elaborated-plan
+│   │   ├── improved-plan
+│   │   ├── plan.json
+│   │   ├── solver-plan
+│   │   ├── source-hashes
+│   │   └── up-to-date
+│   ├── packagedb
+│   │   ├── ghc-8.10.7
+│   │   │   ├── package.cache
+│   │   │   └── package.cache.lock
+│   │   └── ghc-9.2.8
+│   │       ├── package.cache
+│   │       └── package.cache.lock
+│   └── tmp
+├── esp
+│   └── grub
+├── list.txt
+├── Mat.cabal
+└── README.md
+
+51 directories, 79 files
